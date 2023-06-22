@@ -27,7 +27,7 @@ function FooterMenu() {
                         <form action="/catalog" method="get">
                             <div className="input-group mb-3">
                                 <span className="input-group-text" id="basic-addon1"><img className="icon" src="./src/assets/location.png" alt="@" /></span>
-                                <input type="text" className="form-control" placeholder="Location" aria-label="Location"/>
+                                <input name='location' type="text" className="form-control" placeholder="Location" aria-label="Location"/>
                                 <button type="submit" className="btn btn-outline-light">Search</button>
                             </div>
                         </form>

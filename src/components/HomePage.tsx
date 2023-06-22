@@ -1,4 +1,4 @@
-import { Container, Carousel, Image, Form } from "react-bootstrap";
+import { Container, Carousel, Image, Form, Row, Col} from "react-bootstrap";
 import '../styles/HomePage.css'
 import ReviewCard from "./ReviewCard";
 
@@ -34,8 +34,26 @@ function HomePage() {
                     </div>
                 </Form>
             </Container>
-            <Container>
-                <ReviewCard></ReviewCard>
+            <Container className="text-center justify-content-center">
+                <h1>Reviews</h1>
+                <Carousel fade variant="dark">
+                    <Carousel.Item className="d-flex">
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE1" 
+                                    rating={5} date="2020/06/22"></ReviewCard>
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE2" 
+                                    rating={5} date="2020/06/22"></ReviewCard>
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE3" 
+                                    rating={5} date="2020/06/22"></ReviewCard>                                 
+                    </Carousel.Item>
+                    <Carousel.Item className="d-flex">
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE4" 
+                                    rating={5} date="2020/06/22"></ReviewCard>
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE5" 
+                                    rating={5} date="2020/06/22"></ReviewCard>
+                        <ReviewCard firstname="Lucas" lastname="Deusa" review="TESTE6" 
+                                    rating={5} date="2020/06/22"></ReviewCard>                                 
+                    </Carousel.Item>
+                </Carousel>
             </Container>
         </>
     );

@@ -3,20 +3,6 @@
     --secondary-text: #0c0c0cff;
 }
 
-.carousel-img{
-    position: relative;
-}
-
-.carousel-img:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    /* Adjust the opacity as needed */
-    z-index: 99;
-}
 
 .custom-caption {
     position: absolute;

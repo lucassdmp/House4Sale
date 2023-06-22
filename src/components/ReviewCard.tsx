@@ -1,5 +1,4 @@
-import React from 'react';
-import { Card, Row, Col, Container } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
 interface ReviewCardProps {
     firstname: string;

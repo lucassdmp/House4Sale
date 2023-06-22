@@ -1,4 +1,4 @@
-import { Container, Carousel, Image, Form, Row, Col} from "react-bootstrap";
+import { Container, Carousel, Image, Form} from "react-bootstrap";
 import '../styles/HomePage.css'
 import ReviewCard from "./ReviewCard";
 

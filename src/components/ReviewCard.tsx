@@ -10,13 +10,13 @@ interface ReviewCardProps {
 
 function ReviewCard({firstname, lastname, review, rating, date}: ReviewCardProps) {
     // firstname: string, lastname: string, review: string, rating: number, date: string
-    let name = firstname + " " + lastname;
-    let reviewText = review;
-    let stars = "★".repeat(rating);
-    let dateReview = new Date(date);
+    const name = firstname + " " + lastname;
+    const reviewText = review;
+    const stars = "★".repeat(rating);
+    const dateReview = new Date(date);
 
-    let todayDate = new Date();
-    let daysAgo = Math.floor((todayDate.getTime() - dateReview.getTime()) / (1000 * 3600 * 24));
+    const todayDate = new Date();
+    const daysAgo = Math.floor((todayDate.getTime() - dateReview.getTime()) / (1000 * 3600 * 24));
 
     return (
         <>

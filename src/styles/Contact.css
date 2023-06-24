@@ -1,23 +1,23 @@
-.container {
+.containercontact {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-Form {
+.formcontact {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
     margin: 2rem 10rem;
     border-radius: 1rem;
 }
 
-Form p {
+.formcontact p {
     
     font-size: 16px;
     color: black
 }
 
-Form .required-field::after {
+.formcontact .required-field::after {
     content: "*";
     color: red;
     margin-left:2px

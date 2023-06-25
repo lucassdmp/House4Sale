@@ -1,5 +1,5 @@
 interface HouseCardProps {
-    mainImage: string;
+    housebanner: string;
     address: string;
     price: number;
     description: string;

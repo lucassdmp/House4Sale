@@ -10,18 +10,16 @@ import SellWithUs from "./components/SellWithUs";
 
 function App() {
   return (
-    <>
+    <Router>
       <NavbarMenu />
-      <Router>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/catalog" element={<CatalogPage/>} />
-          <Route path="/sellwithus" element={<SellWithUs />} />
-        </Routes>
-      </Router>
-      <FooterMenu/>
-    </>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/sellwithus" element={<SellWithUs />} />
+      </Routes>
+      <FooterMenu />
+    </Router>
   );
 }
 

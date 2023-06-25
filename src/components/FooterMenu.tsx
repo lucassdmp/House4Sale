@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/FooterMenu.css'
+import FilterForm from './FilterForm';
 
 function FooterMenu() {
     // get today's year
@@ -24,13 +25,7 @@ function FooterMenu() {
                     </Col>
                     <Col></Col>
                     <Col>
-                        <form action="/catalog" method="get">
-                            <div className="input-group mb-3">
-                                <span className="input-group-text" id="basic-addon1"><img className="icon" src="./src/assets/location.png" alt="@" /></span>
-                                <input name='location' type="text" className="form-control" placeholder="Location" aria-label="Location"/>
-                                <button type="submit" className="btn btn-outline-light">Search</button>
-                            </div>
-                        </form>
+                        <FilterForm />
                     </Col>
                 </Row>
                 <Row className='text-dark'>

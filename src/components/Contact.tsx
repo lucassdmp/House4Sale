@@ -4,8 +4,8 @@ import '../styles/Contact.css'
 function Contact(){
     return (
         <>
-            <Container className="vh-100 vw-100">
-                <Form className="p-5" >
+            <Container className="containercontact mb-3 mt-4">
+                <Form className="formcontact p-5" >
                     <h1 className="text-center pt-5">Contact Us</h1>
                     <p className="text-center">Fill out the form below with your information and your message. We will contact you shortly.</p>
                     <Form.Group className="mb-3 " controlId="Forms">

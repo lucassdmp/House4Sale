@@ -25,7 +25,7 @@ function HouseCard(houseAtt: HouseCardProps) {
     }
 
     return (
-        <Container className='text-center house-card' id={houseAtt.id.toString()}>
+        <Container className='text-center housecard' id={houseAtt.id.toString()}>
             <Card className='text-center'>
                 <CardImg className='card-image' variant='top' src={houseAtt.housebanner} />
                 <Card.Body className='card-body d-flex flex-column'>

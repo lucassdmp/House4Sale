@@ -2,7 +2,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 function NavbarMenu() {
     return (
-        <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-tertiary bg-color-black">
+        <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-tertiary bg-color-black ">
             <Container>
                 <Navbar.Brand href="/">
                     <img width={30} height={30} src="./src/assets/logo.png" alt="" />

@@ -3,6 +3,13 @@
     --secondary-text: #0c0c0cff;
 }
 
+.navbarCs{
+    color: var(--secondary-text);
+}
+/* select for all sons of navbarCs */
+.navbarCs > *{
+    color: #4992ce !important;
+}
 
 .custom-caption {
     position: absolute;
@@ -13,4 +20,9 @@
 }
 .custom-caption>h1, .custom-caption > p{
     text-shadow: 4px 4px 4px var(--secondary-text);
+}
+
+.cardbodyReview{
+    
+    flex-direction: column !important;
 }

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FooterMenu from "./components/FooterMenu";
 import CatalogPage from "./components/CatalogPage";
 import SellWithUs from "./components/SellWithUs";
+import Admin from "./components/Admin";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/catalog" element={<CatalogPage />} />
         <Route path="/sellwithus" element={<SellWithUs />} />
+        <Route path="/admin" element={<Admin/>}/>
       </Routes>
       <FooterMenu />
     </Router>

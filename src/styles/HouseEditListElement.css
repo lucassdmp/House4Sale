@@ -1,0 +1,79 @@
+.houseListElement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    margin: 0.5rem 0;
+}
+
+.houseListElementImg{
+    width: 25%;
+}
+.houseListElementImg > img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.houseListElementInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+.houseListElementInfo > h3{
+    font-size: 0.85rem;
+    margin: 0;
+}
+.houseListElementInfo > h2{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.houseListElementDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.houseListElementDesc > p{
+    font-size: 0.85rem;
+    margin: 0;
+    color: black;
+}
+
+.houseListElementButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.houseListElementButtons > *{
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .houseListElement{
+        flex-direction: column;
+        min-height: 250px;
+        margin: 15px 0;
+    }
+    .houseListElement > *{
+        width: 100%;
+
+    }
+    .houseListElementImg > img{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+}

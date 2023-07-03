@@ -71,7 +71,7 @@ function CatalogPage() {
                     {cardList
                         .slice(offset, offset + 6)
                         .map((house: HouseProps) => (
-                            <div className='col-md-4' key={house.houseid}>
+                            <div className='col-md-4 mt-5' key={house.houseid}>
                                 <HouseCard
                                     housebanner={house.housebanner}
                                     address={house.houseaddress}

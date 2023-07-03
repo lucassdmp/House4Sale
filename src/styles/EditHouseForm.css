@@ -1,0 +1,58 @@
+.EditHouseFormWrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.housebannerEdit, .housedescEdit{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    max-height: 200px;
+}
+
+.EditHouseFormWrapper input, textarea{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem 1rem 0 0;
+    font-size: 14px;
+}
+
+.EditHouseFormWrapper textarea{
+    height: 8rem;
+    width: auto;
+    
+}
+
+.EditHouseFormWrapper label{
+    font-size: 1.5rem;
+}
+
+.housebannerImage{
+    height: 200px;
+    width: 300px;
+    border-radius: 14px;
+}
+
+.houseEditButton{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.houseEditButton:hover{
+    background-color: #0c0c0c;
+    color: #fff;
+}

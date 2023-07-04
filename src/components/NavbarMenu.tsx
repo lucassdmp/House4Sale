@@ -12,11 +12,6 @@ function NavbarMenu() {
                     <Nav className="ms-auto">
                         <Nav.Link  href="/"><p className="font-weight-bold text-dark">Home</p></Nav.Link>
                         <Nav.Link href="/catalog"><p className="font-weight-bold text-dark">Catalog</p></Nav.Link>
-                        <NavDropdown title="Contact" id="collasible-nav-dropdown" >
-                            <NavDropdown.Item href="/sellwithus">Sell With Us</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="contact">Contact Us</NavDropdown.Item>
-                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

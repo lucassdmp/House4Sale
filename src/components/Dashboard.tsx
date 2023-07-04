@@ -19,9 +19,6 @@ function Dashboard() {
                 <Tab eventKey="delHouse" title="Edit or Delete House">
                     <HouseEditList/>
                 </Tab>
-                <Tab eventKey="admAccounts" title="Admin Accounts">
-                    Tab content for Admin
-                </Tab>
             </Tabs>
         </Container>
     );

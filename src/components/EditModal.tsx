@@ -9,7 +9,12 @@ interface EditModalProps{
     setHasEdited: any;
 }
 
+
 function EditModal(props: EditModalProps){
+    const reload = (param  : boolean) => {
+        props.setHasEdited(param);
+        window.location.reload();
+    }
     return(
         <Modal
             show={props.showModal}
@@ -26,7 +31,7 @@ function EditModal(props: EditModalProps){
                 <EditHouseForm setHasEdited={props.setHasEdited} onHide={props.onHide} props={props.houseProps}/>
             </Modal.Body>
             <Modal.Footer>
-                <Button className="btn-success" onClick={() => props.onHide(false)}>Close</Button>
+                <Button className="btn-success" onClick={() => reload(false)}>Close</Button>
             </Modal.Footer>
         </Modal>
     )

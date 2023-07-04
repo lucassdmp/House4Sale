@@ -34,7 +34,7 @@ function HouseEditList() {
                     price: house.houseprice,
                     id: house.houseid,
                 };
-                return (<HouseEditListElement key={house.houseid} setHasDeleted={setHasDeleted} props={houseProps} SetHasEdited={setHasEdited} />)
+                return (<HouseEditListElement key={house.houseid} setHasDeleted={setHasDeleted} props={houseProps} setHasEdited={setHasEdited} />)
             })}
             <br/>
         </div>

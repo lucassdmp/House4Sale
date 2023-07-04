@@ -13,18 +13,17 @@ function FooterMenu() {
                 <Row className='d-flex justify-content-start mb-3'>
                     <Col className="d-flex flex-column m-0 p-0">
                         <h4>Company</h4>
-                        <a href="#">Contact Us</a>
-                        <a href="#">Sell With Us</a>
+                        <a href="http://localhost:5173/contact">Contact Us</a>
+                        {/* <a href="http://localhost:5173/sellwithus">Sell With Us</a> */}
                     </Col>
                     <Col className="d-flex flex-column m-0 p-0">
                         <h4>Social Medias</h4>
                         <a href="https://github.com/lucassdmp">Facebook</a>
                         <a href="https://github.com/lucassdmp">Email</a>
-                        <a href="https://github.com/lucassdmp">Instagram</a>
                     </Col>
-                    <Col></Col>
                     <Col>
-                        <FilterForm />
+                        <h4>Admin</h4>
+                        <a href="/admin">Painel Admin</a>
                     </Col>
                 </Row>
                 <Row className='text-dark'>

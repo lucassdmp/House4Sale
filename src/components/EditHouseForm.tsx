@@ -29,6 +29,7 @@ function EditHouseForm(propsEdit: editHouseprops) {
             setMsg(response.data.msg);
             propsEdit.onHide(false);
             propsEdit.setHasEdited(true);
+            
         }
         );
     }

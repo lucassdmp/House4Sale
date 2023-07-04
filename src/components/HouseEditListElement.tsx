@@ -1,7 +1,7 @@
 import axios from "axios";
 import HouseCardProps from "../interfaces/HouseCardProps";
 import '../styles/HouseEditListElement.css';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import EditModal from "./EditModal";
 
 function shortenDesc(desc: string) {
